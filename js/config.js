@@ -105,11 +105,6 @@ const API_SITES = {
         api: 'https://ikunzyapi.com',
         name: 'iKun资源'
     },
-    testSource: {
-        api: 'https://www.example.com',
-        name: '空内容测试源',
-        adult: true
-    },
 
      ckzy: {
          api: 'https://www.ckzy1.com',
@@ -234,4 +229,4 @@ const CUSTOM_API_CONFIG = {
 };
 
 // 隐藏内置黄色采集站API的变量
-const HIDE_BUILTIN_ADULT_APIS = false;
+const HIDE_BUILTIN_ADULT_APIS = true;
