@@ -13,7 +13,7 @@ const PASSWORD_CONFIG = {
 // 网站信息配置
 const SITE_CONFIG = {
     name: 'LibreTV',
-    url: 'https://libretv.is-an.org',
+    url: 'https://tv.332209.xyz',
     description: '免费在线视频搜索与观看平台',
     logo: 'image/logo.png',
     version: '1.0.3'
@@ -127,11 +127,11 @@ const API_SITES = {
     //     name: 'CK资源',
     //     adult: true
     // },
-    // jkun: {
-    //     api: 'https://jkunzyapi.com',
-    //     name: 'jkun资源',
+     jkun: {
+         api: 'https://jkunzyapi.com/api.php/provide/vod',
+         name: 'jkun资源',
     //     adult: true
-    // },
+     },
     // bwzy: {
     //     api: 'https://api.bwzym3u8.com',
     //     name: '百万资源',
@@ -158,11 +158,11 @@ const API_SITES = {
     //     adult: true,
     //     detail: 'https://hsckzy.vip'
     // },
-    // yutu: {
-    //     api: 'https://yutuzy10.com',
-    //     name: '玉兔资源',
+     yutu: {
+         api: 'https://yutuzy10.com/api.php/provide/vod',
+         name: '玉兔资源',
     //     adult: true
-    // },
+     },
 
     // 下面是资源失效率高的API源，不建议使用
     // subo: {
@@ -259,4 +259,4 @@ const CUSTOM_API_CONFIG = {
 };
 
 // 隐藏内置黄色采集站API的变量
-const HIDE_BUILTIN_ADULT_APIS = false;
+const HIDE_BUILTIN_ADULT_APIS = true;
